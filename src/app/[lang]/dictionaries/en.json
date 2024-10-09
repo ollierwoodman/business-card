@@ -1,0 +1,72 @@
+{
+  "head": {
+    "title": "Ollie Woodman"
+  },
+  "main": {
+    "fullname": "Ollie Woodman",
+    "altname": "吴奥利",
+    "tagline": "I am a software engineer from Australia interested in making LLMs safer and more useful."
+  },
+  "language": {
+    "en": "English",
+    "zh": "中文",
+    "current": "en"
+  },
+  "socials": [
+    {
+      "id": "github",
+      "name": "GitHub",
+      "text": "Check out my GitHub",
+      "url": "https://github.com/ollierwoodman",
+      "icon": {
+        "src": "/images/brands/github.svg" 
+      }
+    },
+    {
+      "id": "wechat",
+      "name": "WeChat",
+      "text": "Add me on WeChat",
+      "icon": {
+        "src": "/images/brands/wechat.svg" 
+      }
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "text": "Connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/ollie-woodman/",
+      "icon": {
+        "src": "/images/brands/linkedin.svg" 
+      }
+    },
+    {
+      "id": "email",
+      "name": "Email",
+      "text": "Send me an email",
+      "url": "mailto:ollierwoodman@gmail.com",
+      "icon": {
+        "src": "/images/brands/email.svg" 
+      }
+    }
+  ],
+  "usernameCopiedToClipboard": "My username 'ooodman' has been copied to your clipboard",
+  "projects": [
+    {
+      "id": "neuronautllm",
+      "name": "NeuronautLLM",
+      "description": "A visual analysis tool for large language models that allows users to find and learn about influential neurons for a user-defined prompt",
+      "publishedState": "Accepted - ScienceDirect Graphical Models (Special Issue of Chinagraph 2024)",
+      "imgSrc": "/images/neuronautllm-teaser.png",
+      "url": "https://github.com/ollierwoodman/NeuronautLLM"
+    },
+    {
+      "id": "sprout",
+      "name": "SPROUT",
+      "description": "An interactive authoring tool for generating programming tutorials with the visualization of large language models",
+      "publishedState": "Published - IEEE TVCG 2024",
+      "imgSrc": "/images/sprout-teaser.png",
+      "url": "https://github.com/KidsXH/sprout"
+    }
+  ],
+  "projectLearnMore": "Learn more"
+}

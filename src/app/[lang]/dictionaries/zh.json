@@ -1,0 +1,73 @@
+{
+  "head": {
+    "title": "吴奥利"
+  },
+  "main": {
+    "fullname": "吴奥利",
+    "altname": "Ollie Woodman",
+    "tagline": "我是一名来自澳洲的软件工程师。我想让大型语言模型 (LLM) 更安全更有用。",
+    "language": "zh"
+  },
+  "language": {
+    "en": "English",
+    "zh": "中文",
+    "current": "zh"
+  },
+  "socials": [
+    {
+      "id": "github",
+      "name": "GitHub",
+      "text": "瞧瞧我的 GitHub",
+      "url": "https://github.com/ollierwoodman",
+      "icon": {
+        "src": "/images/brands/github.svg" 
+      }
+    },
+    {
+      "id": "wechat",
+      "name": "WeChat",
+      "text": "加微信好友",
+      "icon": {
+        "src": "/images/brands/wechat.svg" 
+      }
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "text": "加我的 LinkedIn",
+      "url": "https://www.linkedin.com/in/ollie-woodman/",
+      "icon": {
+        "src": "/images/brands/linkedin.svg" 
+      }
+    },
+    {
+      "id": "email",
+      "name": "Email",
+      "text": "给我发邮件",
+      "url": "mailto:ollierwoodman@gmail.com",
+      "icon": {
+        "src": "/images/brands/email.svg" 
+      }
+    }
+  ],
+  "usernameCopiedToClipboard": "用户名【ooodman】已经拷贝到粘贴板了。",
+  "projects": [
+    {
+      "id": "neuronautllm",
+      "name": "NeuronautLLM",
+      "description": "A visual analysis tool for large language models that allows users to find and learn about influential neurons for a user-defined prompt",
+      "publishedState": "已录用 - ScienceDirect Graphical Models (Special Issue of Chinagraph 2024)",
+      "imgSrc": "/images/neuronautllm-teaser.png",
+      "url": "https://github.com/ollierwoodman/NeuronautLLM"
+    },
+    {
+      "id": "sprout",
+      "name": "SPROUT",
+      "description": "An interactive authoring tool for generating programming tutorials with the visualization of large language models",
+      "publishedState": "已发表 - IEEE TVCG 2024",
+      "imgSrc": "/images/sprout-teaser.png",
+      "url": "https://github.com/KidsXH/sprout"
+    }
+  ],
+  "projectLearnMore": "了解更多"
+}
