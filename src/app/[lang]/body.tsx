@@ -1,7 +1,11 @@
 "use client"
 
 import Image from "next/image";
+<<<<<<< HEAD
 import { Dictionary } from "../../../types";
+=======
+import { Dictionary, Lang } from "../../../types";
+>>>>>>> 68b24419416f0a5e1e0bb4990d5fb489e8cfe005
 import { SocialLink } from "@/components/SocialLink";
 import Modal from "@/components/Modal";
 import { useState } from "react";
@@ -93,7 +97,11 @@ export default function Body({ dict }: { dict: Dictionary }) {
         </div>
       </div>
       <footer className="relative w-full bottom-0 sm:fixed sm:w-fit flex flex-row flex-wrap items-center p-4">
+<<<<<<< HEAD
         <LanguageSelect dict={dict} />
+=======
+        <LanguageSelect dict={dict} className="" />
+>>>>>>> 68b24419416f0a5e1e0bb4990d5fb489e8cfe005
       </footer>
       <div id="modal"></div>
       <Modal active={isWeChatModalOpen} setActive={setWeChatModalOpen}>
