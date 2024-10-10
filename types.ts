@@ -25,7 +25,6 @@ export type Social = {
   name: string, 
   text: string,
   url?: string,
-  icon: { src: string },
 }
 
 export type Project = {

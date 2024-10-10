@@ -18,36 +18,24 @@
       "id": "github",
       "name": "GitHub",
       "text": "瞧瞧我的 GitHub",
-      "url": "https://github.com/ollierwoodman",
-      "icon": {
-        "src": "/images/brands/github.svg" 
-      }
+      "url": "https://github.com/ollierwoodman"
     },
     {
       "id": "wechat",
       "name": "WeChat",
-      "text": "加微信好友",
-      "icon": {
-        "src": "/images/brands/wechat.svg" 
-      }
+      "text": "加微信好友"
     },
     {
       "id": "linkedin",
       "name": "LinkedIn",
       "text": "加我的 LinkedIn",
-      "url": "https://www.linkedin.com/in/ollie-woodman/",
-      "icon": {
-        "src": "/images/brands/linkedin.svg" 
-      }
+      "url": "https://www.linkedin.com/in/ollie-woodman/"
     },
     {
       "id": "email",
       "name": "Email",
       "text": "给我发邮件",
-      "url": "mailto:ollierwoodman@gmail.com",
-      "icon": {
-        "src": "/images/brands/email.svg" 
-      }
+      "url": "mailto:ollierwoodman@gmail.com"
     }
   ],
   "usernameCopiedToClipboard": "用户名【ooodman】已经拷贝到粘贴板了。",
