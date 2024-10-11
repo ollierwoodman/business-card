@@ -45,7 +45,7 @@
       "name": "NeuronautLLM",
       "description": "A visual analysis tool for large language models that allows users to find and learn about influential neurons for a user-defined prompt",
       "publishedState": "已录用 - ScienceDirect Graphical Models (Special Issue of Chinagraph 2024)",
-      "imgSrc": "/images/neuronautllm-teaser.png",
+      "imgSrc": "/images/neuronautllm-teaser.webp",
       "url": "https://github.com/ollierwoodman/NeuronautLLM"
     },
     {
@@ -53,7 +53,7 @@
       "name": "SPROUT",
       "description": "An interactive authoring tool for generating programming tutorials with the visualization of large language models",
       "publishedState": "已发表 - IEEE TVCG 2024",
-      "imgSrc": "/images/sprout-teaser.png",
+      "imgSrc": "/images/sprout-teaser.webp",
       "url": "https://github.com/KidsXH/sprout"
     }
   ],

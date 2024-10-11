@@ -17,36 +17,24 @@
       "id": "github",
       "name": "GitHub",
       "text": "Check out my GitHub",
-      "url": "https://github.com/ollierwoodman",
-      "icon": {
-        "src": "/images/brands/github.svg" 
-      }
+      "url": "https://github.com/ollierwoodman"
     },
     {
       "id": "wechat",
       "name": "WeChat",
-      "text": "Add me on WeChat",
-      "icon": {
-        "src": "/images/brands/wechat.svg" 
-      }
+      "text": "Add me on WeChat"
     },
     {
       "id": "linkedin",
       "name": "LinkedIn",
       "text": "Connect on LinkedIn",
-      "url": "https://www.linkedin.com/in/ollie-woodman/",
-      "icon": {
-        "src": "/images/brands/linkedin.svg" 
-      }
+      "url": "https://www.linkedin.com/in/ollie-woodman/"
     },
     {
       "id": "email",
       "name": "Email",
       "text": "Send me an email",
-      "url": "mailto:ollierwoodman@gmail.com",
-      "icon": {
-        "src": "/images/brands/email.svg" 
-      }
+      "url": "mailto:ollierwoodman@gmail.com"
     }
   ],
   "usernameCopiedToClipboard": "My username 'ooodman' has been copied to your clipboard",
