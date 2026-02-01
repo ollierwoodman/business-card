@@ -32,9 +32,11 @@ function getSocialIcon(id: string): React.ReactNode {
 
 export const SocialLink: React.FC<{ 
   social: Social, 
+  isRound?: boolean,
   handleClickOverride?: () => void 
 }> = ({ 
-  social, 
+  social,
+  isRound = false, 
   handleClickOverride 
 }) => {
   const handleClick = () => {
@@ -46,6 +48,19 @@ export const SocialLink: React.FC<{
       window.open(social.url)
       return;
     }
+  }
+
+  if (isRound) {
+    return <Button
+      onClick={handleClick}
+      className={`rounded-full flex flex-row items-center text-white gap-4 p-4 ${
+        getTwColorClassName(social.id)
+      }`}
+    >
+      <span className="text-3xl sm:text-xl">
+        {getSocialIcon(social.id)}
+      </span>
+    </Button>
   }
 
   return (

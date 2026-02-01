@@ -7,7 +7,7 @@ export const LanguageSelect: React.FC<{
   dict,
 }) => {  
   return (
-    <div className="flex flex-row gap-1">
+    <div className="flex flex-col md:flex-row gap-2">
       <LanguageButton languageCode="en" dict={dict} />
       <LanguageButton languageCode="zh" dict={dict} />
     </div>

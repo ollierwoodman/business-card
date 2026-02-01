@@ -4,8 +4,35 @@
   },
   "main": {
     "fullname": "Ollie Woodman",
-    "altname": "吴奥利",
-    "tagline": "I am a software engineer from Australia interested in making LLMs safer and more useful."
+    "tagline": "I am an AI engineer from Australia interested in building AI systems that solve real problems safely and efficiently.",
+    "education": [
+      {
+        "id": "cs",
+        "title": "Master of Engineering",
+        "specialisation": "Computer Science & Technology",
+        "institution": "Zhejiang University",
+        "graduatedMonthYear": "March 2025"
+      },
+      {
+        "id": "it",
+        "title": "Bachelor of Information Technology",
+        "specialisation": "Software Development",
+        "institution": "Monash University",
+        "graduatedMonthYear": "April 2022"
+      },
+      {
+        "id": "arts",
+        "title": "Bachelor of Arts",
+        "specialisation": "Chinese Studies",
+        "institution": "Monash University",
+        "graduatedMonthYear": "April 2022"
+      }
+    ]
+  },
+  "sections": {
+    "connect": "Connect with me",
+    "education": "Education",
+    "projects": "My recent projects"
   },
   "language": {
     "en": "English",
@@ -48,12 +75,26 @@
       "url": "https://github.com/ollierwoodman/NeuronautLLM"
     },
     {
+      "id": "blockle",
+      "name": "Blockle",
+      "description": "A daily puzzle game that combines Wordle with Tetris.",
+      "imgSrc": "/images/blockle-teaser.webp",
+      "url": "https://blockle.au/"
+    },
+    {
       "id": "sprout",
       "name": "SPROUT",
       "description": "An interactive authoring tool for generating programming tutorials with the visualization of large language models",
       "publishedState": "Published - IEEE TVCG 2024",
       "imgSrc": "/images/sprout-teaser.webp",
       "url": "https://github.com/KidsXH/sprout"
+    },
+    {
+      "id": "vidguard3d",
+      "name": "VidGuard3D",
+      "description": "A visual risk analysis tool for protecting 3D assets against video-based reconstruction attacks",
+      "publishedState": "审核中 - IEEE TVCG 2026",
+      "imgSrc": "/images/vidguard3d-teaser.webp"
     }
   ],
   "projectLearnMore": "Learn more"

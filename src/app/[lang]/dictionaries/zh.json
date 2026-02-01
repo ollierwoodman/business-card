@@ -6,7 +6,34 @@
     "fullname": "吴奥利",
     "altname": "Ollie Woodman",
     "tagline": "我是一名来自澳洲的软件工程师。我想让大型语言模型 (LLM) 更安全更有用。",
-    "language": "zh"
+    "education": [
+      {
+        "id": "cs",
+        "title": "工程硕士学位",
+        "specialisation": "计算机科学与技术",
+        "institution": "浙江大学",
+        "graduatedMonthYear": "2025 年 3 月"
+      },
+      {
+        "id": "it",
+        "title": "信息技术学士学位",
+        "specialisation": "软件开发",
+        "institution": "蒙纳士大学",
+        "graduatedMonthYear": "2022 年 4 月"
+      },
+      {
+        "id": "arts",
+        "title": "文学学士学位",
+        "specialisation": "中文系",
+        "institution": "蒙纳士大学",
+        "graduatedMonthYear": "2022 年 4 月"
+      }
+    ]
+  },
+  "sections": {
+    "connect": "联系我",
+    "education": "学历",
+    "projects": "近期项目"
   },
   "language": {
     "en": "English",
@@ -46,7 +73,14 @@
       "description": "A visual analysis tool for large language models that allows users to find and learn about influential neurons for a user-defined prompt",
       "publishedState": "已录用 - ScienceDirect Graphical Models (Special Issue of Chinagraph 2024)",
       "imgSrc": "/images/neuronautllm-teaser.webp",
-      "url": "https://github.com/ollierwoodman/NeuronautLLM"
+      "url": "https://www.sciencedirect.com/science/article/pii/S1524070324000262"
+    },
+    {
+      "id": "blockle",
+      "name": "Blockle",
+      "description": "一款每日更新的益智游戏，融合了俄罗斯方块与猜成语的双重玩法。",
+      "imgSrc": "/images/blockle-chengyu-teaser.webp",
+      "url": "https://blockle.au/chengyu"
     },
     {
       "id": "sprout",
@@ -54,7 +88,14 @@
       "description": "An interactive authoring tool for generating programming tutorials with the visualization of large language models",
       "publishedState": "已发表 - IEEE TVCG 2024",
       "imgSrc": "/images/sprout-teaser.webp",
-      "url": "https://github.com/KidsXH/sprout"
+      "url": "https://ieeexplore.ieee.org/document/10557722/"
+    },
+    {
+      "id": "vidguard",
+      "name": "VidGuard3D",
+      "description": "A visual risk analysis tool for protecting 3D assets against video-based reconstruction attacks",
+      "publishedState": "审核中 - IEEE TVCG 2026",
+      "imgSrc": "/images/vidguard3d-teaser.webp"
     }
   ],
   "projectLearnMore": "了解更多"
