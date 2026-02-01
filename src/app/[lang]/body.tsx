@@ -79,15 +79,17 @@ export default function Body({ dict }: { dict: Dictionary }) {
                   answer={
                     <div className="flex flex-col p-4 gap-2">
                       <Image src={value.imgSrc} alt={value.name} width={1600} height={900} className="rounded-base" />
-                      <p>{value.description}</p>
+                      <p className="mt-2">{value.description}</p>
                       <p className="flex-shrink text-sm text-balance opacity-70">{value.publishedState}</p>
-                      <Link 
-                        href={value.url} 
-                        className="mx-auto flex items-center text-text cursor-pointer rounded-base border-2 border-border dark:border-darkBorder bg-yellow-400 px-4 py-2 text-base sm:text-sm font-base shadow-light dark:shadow-dark transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none dark:hover:shadow-none"
-                      >
-                        <IconLink className="text-xl mr-2" />
-                        {dict.projectLearnMore}
-                      </Link>
+                      {value.url && 
+                        <Link 
+                          href={value.url} 
+                          className="mx-auto my-2 flex items-center text-text cursor-pointer rounded-base border-2 border-border dark:border-darkBorder bg-yellow-400 px-4 py-2 text-base sm:text-sm font-base shadow-light dark:shadow-dark transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none dark:hover:shadow-none"
+                        >
+                          <IconLink className="text-xl mr-2" />
+                          {dict.projectLearnMore}
+                        </Link>
+                      }
                     </div>
                   }
                 />
@@ -100,7 +102,7 @@ export default function Body({ dict }: { dict: Dictionary }) {
       <Modal active={isWeChatModalOpen} setActive={setWeChatModalOpen}>
         <Image src="/images/wechat-qr.webp" alt="WeChat QR code" width={500} height={500} className="rounded-base" />
         {clipboardCopyStatus && 
-          <p className="mt-2 text-center text-balance opacity-80">
+          <p className="mt-4 text-center opacity-80">
             {clipboardCopyStatus}
           </p>
         }

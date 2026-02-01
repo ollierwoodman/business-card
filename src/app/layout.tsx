@@ -1,3 +1,5 @@
+import './globals.css'
+
 export default function Root({ children }: Readonly<{ children: React.ReactNode }>) {
     return (
         <html>

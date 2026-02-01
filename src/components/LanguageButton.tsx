@@ -18,7 +18,7 @@ export const LanguageButton: React.FC<{
     <Link 
       href={`/${languageCode}`}
       className={cn(
-        'flex text-text cursor-pointer items-center justify-center rounded-base border-2 border-border dark:border-darkBorder bg-main px-4 py-2 text-xs font-base shadow-light dark:shadow-dark transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none dark:hover:shadow-none',
+        'flex text-white cursor-pointer items-center justify-center rounded-base border-2 border-border dark:border-darkBorder bg-main px-4 py-2 text-xs font-bold shadow-light dark:shadow-dark transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none dark:hover:shadow-none',
         className,
       )}
     >

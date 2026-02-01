@@ -39,7 +39,7 @@ export default function Accordion({ question, answer, className, defaultOpen }: 
       <button
         role="button"
         className={cn(
-          'flex w-full items-center text-text transition-[border-radius] justify-between border-b-0 group-data-[state=open]:border-b-2 border-b-border dark:border-b-darkBorder bg-main p-4 md:p-5 font-heading',
+          'flex w-full items-center text-white transition-[border-radius] justify-between border-b-0 group-data-[state=open]:border-b-2 border-b-border dark:border-b-darkBorder bg-main p-4 md:p-5 font-heading',
           className,
         )}
         onClick={() => {
