@@ -30,7 +30,7 @@ export default function Body({ dict }: { dict: Dictionary }) {
   return (
     <>
       <div className="absolute top-0 right-0 p-2">
-          <LanguageSelect dict={dict} />
+        <LanguageSelect dict={dict} />
       </div>
       <div className="text-text dark:text-darkText grid grid-cols-1 xl:grid xl:grid-cols-2 p-4 md:p-8 lg:p-16 gap-8">
         <div className="flex flex-col">
@@ -43,7 +43,8 @@ export default function Body({ dict }: { dict: Dictionary }) {
           />
           <div className="mt-8">
             <h2 className="text-3xl text-center md:text-left font-heading text-balance sm:text-5xl">
-              {dict.main.fullname} {dict.main.altname && <>({dict.main.altname})</>}
+              {dict.main.fullname}{" "}
+              {dict.main.altname && <>({dict.main.altname})</>}
             </h2>
             <p className="mt-6 text-center md:text-left text-balance md:text-wrap text-base font-base sm:text-xl">
               {dict.main.tagline}
@@ -61,7 +62,9 @@ export default function Body({ dict }: { dict: Dictionary }) {
               />
             ))}
           </div>
-          <h2 className="hidden md:block mt-8 text-2xl font-heading mb-2">{dict.sections.connect}</h2>
+          <h2 className="hidden md:block mt-8 text-2xl font-heading mb-2">
+            {dict.sections.connect}
+          </h2>
           <div
             id="grid-container"
             className="hidden md:grid text-text dark:text-text w-full grid-cols-1 gap-4 md:grid-cols-2"
@@ -77,7 +80,9 @@ export default function Body({ dict }: { dict: Dictionary }) {
             ))}
           </div>
           <div className="mt-8 text-center md:text-left">
-            <h2 className="text-2xl font-heading mb-2">{dict.sections.education}</h2>
+            <h2 className="text-2xl font-heading mb-2">
+              {dict.sections.education}
+            </h2>
             <ul>
               {dict.main.education.map((education: Education) => {
                 return (
@@ -87,11 +92,15 @@ export default function Body({ dict }: { dict: Dictionary }) {
                   >
                     <p>
                       <span className="font-bold">{education.institution}</span>
-                      <span className="hidden md:inline ml-1.5">-{" "}{education.title}</span>
+                      <span className="hidden md:inline ml-1.5">
+                        - {education.title}
+                      </span>
                     </p>
                     <p className="block md:hidden">{education.title}</p>
                     <p className="opacity-50">{education.specialisation}</p>
-                    <p className="opacity-50 text-sm">{education.graduatedMonthYear}</p>
+                    <p className="opacity-50 text-sm">
+                      {education.graduatedMonthYear}
+                    </p>
                   </li>
                 );
               })}
@@ -99,7 +108,9 @@ export default function Body({ dict }: { dict: Dictionary }) {
           </div>
         </div>
         <div className="flex flex-col">
-          <h2 className="text-center md:text-left text-2xl font-heading mb-2">{dict.sections.projects}</h2>
+          <h2 className="text-center md:text-left text-2xl font-heading mb-2">
+            {dict.sections.projects}
+          </h2>
           <div className="flex flex-col gap-4">
             {dict.projects.map((value) => {
               return (
@@ -120,10 +131,14 @@ export default function Body({ dict }: { dict: Dictionary }) {
                         height={900}
                         className="rounded-base"
                       />
-                      <p className="mt-2">{value.description}</p>
-                      <p className="flex-shrink text-sm text-balance opacity-70">
-                        {value.publishedState}
-                      </p>
+                      {value.description && (
+                        <p className="mt-2">{value.description}</p>
+                      )}
+                      {value.publishedState && (
+                        <p className="flex-shrink text-sm text-balance opacity-70">
+                          {value.publishedState}
+                        </p>
+                      )}
                       {value.url && (
                         <Link
                           href={value.url}
