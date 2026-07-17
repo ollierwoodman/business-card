@@ -8,7 +8,7 @@ import { useState } from "react";
 import { LanguageSelect } from "@/components/LanguageSelect";
 import Accordion from "@/components/Accordion";
 import Link from "next/link";
-import { IconDownload, IconLink } from "@/icons";
+import { IconDocument, IconLink } from "@/icons";
 
 export default function Body({ dict }: { dict: Dictionary }) {
   const [isWeChatModalOpen, setWeChatModalOpen] = useState<boolean>(false);
@@ -52,10 +52,14 @@ export default function Body({ dict }: { dict: Dictionary }) {
             <a
               href="/files/Ollie_Woodman_CV.pdf"
               download
-              className="mt-6 w-full flex justify-center items-center gap-2 text-text cursor-pointer rounded-base border-2 border-border dark:border-darkBorder bg-main px-4 py-2 text-base sm:text-xl font-base shadow-light dark:shadow-dark transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none dark:hover:shadow-none"
+              className="mt-6 w-full flex flex-row justify-center md:justify-start items-center gap-4 p-4 text-white cursor-pointer rounded-base border-2 border-border dark:border-darkBorder bg-main text-sm font-base shadow-light dark:shadow-dark transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none dark:hover:shadow-none"
             >
-              <IconDownload />
-              {dict.downloadResume}
+              <span className="text-3xl sm:text-xl">
+                <IconDocument />
+              </span>
+              <p className="text-base font-bold sm:text-base">
+                {dict.downloadResume}
+              </p>
             </a>
           </div>
           <div className="mt-8 md:hidden flex gap-2 justify-center">
