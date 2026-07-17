@@ -24,6 +24,7 @@ export type Dictionary = {
   usernameCopiedToClipboard: string;
   projects: Project[];
   projectLearnMore: string;
+  downloadResume: string;
 };
 
 export type Social = {

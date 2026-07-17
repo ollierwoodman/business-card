@@ -8,7 +8,7 @@ import { useState } from "react";
 import { LanguageSelect } from "@/components/LanguageSelect";
 import Accordion from "@/components/Accordion";
 import Link from "next/link";
-import { IconLink } from "@/icons";
+import { IconDocument, IconLink } from "@/icons";
 
 export default function Body({ dict }: { dict: Dictionary }) {
   const [isWeChatModalOpen, setWeChatModalOpen] = useState<boolean>(false);
@@ -39,6 +39,7 @@ export default function Body({ dict }: { dict: Dictionary }) {
             alt="Ollie speaking"
             width={200}
             height={200}
+            priority
             className="border-2 border-border dark:border-darkBorder rounded-full mx-auto md:m-0"
           />
           <div className="mt-8">
@@ -49,6 +50,18 @@ export default function Body({ dict }: { dict: Dictionary }) {
             <p className="mt-6 text-center md:text-left text-balance md:text-wrap text-base font-base sm:text-xl">
               {dict.main.tagline}
             </p>
+            <a
+              href="/files/Ollie_Woodman_CV.pdf"
+              download
+              className="mt-6 w-full flex flex-row justify-center md:justify-start items-center gap-4 p-4 text-white cursor-pointer rounded-base border-2 border-border dark:border-darkBorder bg-main text-sm font-base shadow-light dark:shadow-dark transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none dark:hover:shadow-none"
+            >
+              <span className="text-3xl sm:text-xl">
+                <IconDocument />
+              </span>
+              <p className="text-base font-bold sm:text-base">
+                {dict.downloadResume}
+              </p>
+            </a>
           </div>
           <div className="mt-8 md:hidden flex gap-2 justify-center">
             {dict.socials.map((value) => (
