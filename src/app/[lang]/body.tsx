@@ -8,7 +8,7 @@ import { useState } from "react";
 import { LanguageSelect } from "@/components/LanguageSelect";
 import Accordion from "@/components/Accordion";
 import Link from "next/link";
-import { IconLink } from "@/icons";
+import { IconDownload, IconLink } from "@/icons";
 
 export default function Body({ dict }: { dict: Dictionary }) {
   const [isWeChatModalOpen, setWeChatModalOpen] = useState<boolean>(false);
@@ -49,6 +49,14 @@ export default function Body({ dict }: { dict: Dictionary }) {
             <p className="mt-6 text-center md:text-left text-balance md:text-wrap text-base font-base sm:text-xl">
               {dict.main.tagline}
             </p>
+            <a
+              href="/files/Ollie_Woodman_CV.pdf"
+              download
+              className="mt-6 w-full flex justify-center items-center gap-2 text-text cursor-pointer rounded-base border-2 border-border dark:border-darkBorder bg-main px-4 py-2 text-base sm:text-xl font-base shadow-light dark:shadow-dark transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none dark:hover:shadow-none"
+            >
+              <IconDownload />
+              {dict.downloadResume}
+            </a>
           </div>
           <div className="mt-8 md:hidden flex gap-2 justify-center">
             {dict.socials.map((value) => (
