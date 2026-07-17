@@ -39,6 +39,7 @@ export default function Body({ dict }: { dict: Dictionary }) {
             alt="Ollie speaking"
             width={200}
             height={200}
+            priority
             className="border-2 border-border dark:border-darkBorder rounded-full mx-auto md:m-0"
           />
           <div className="mt-8">
