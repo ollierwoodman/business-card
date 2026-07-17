@@ -76,11 +76,11 @@
       "url": "https://www.sciencedirect.com/science/article/pii/S1524070324000262"
     },
     {
-      "id": "blockle",
-      "name": "Blockle",
-      "description": "一款每日更新的益智游戏，融合了俄罗斯方块与猜成语的双重玩法。",
-      "imgSrc": "/images/blockle-chengyu-teaser.webp",
-      "url": "https://blockle.au/chengyu"
+      "id": "vidguard",
+      "name": "VidGuard3D",
+      "description": "A visual risk analysis tool for protecting 3D assets against video-based reconstruction attacks",
+      "publishedState": "已发表 - IEEE TVCG 2026",
+      "imgSrc": "/images/vidguard3d-teaser.webp"
     },
     {
       "id": "sprout",
@@ -91,11 +91,11 @@
       "url": "https://ieeexplore.ieee.org/document/10557722/"
     },
     {
-      "id": "vidguard",
-      "name": "VidGuard3D",
-      "description": "A visual risk analysis tool for protecting 3D assets against video-based reconstruction attacks",
-      "publishedState": "在投",
-      "imgSrc": "/images/vidguard3d-teaser.webp"
+      "id": "blockle",
+      "name": "Blockle",
+      "description": "一款每日更新的益智游戏，融合了俄罗斯方块与猜成语的双重玩法。",
+      "imgSrc": "/images/blockle-chengyu-teaser.webp",
+      "url": "https://blockle.au/chengyu"
     }
   ],
   "projectLearnMore": "了解更多",

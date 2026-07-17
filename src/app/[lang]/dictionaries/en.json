@@ -75,6 +75,13 @@
       "url": "https://github.com/ollierwoodman/NeuronautLLM"
     },
     {
+      "id": "vidguard3d",
+      "name": "VidGuard3D",
+      "description": "A visual risk analysis tool for protecting 3D assets against video-based reconstruction attacks",
+      "publishedState": "Published - IEEE TVCG 2026",
+      "imgSrc": "/images/vidguard3d-teaser.webp"
+    },
+    {
       "id": "blockle",
       "name": "Blockle",
       "description": "A daily puzzle game that combines Wordle with Tetris.",
@@ -88,13 +95,6 @@
       "publishedState": "Published - IEEE TVCG 2024",
       "imgSrc": "/images/sprout-teaser.webp",
       "url": "https://github.com/KidsXH/sprout"
-    },
-    {
-      "id": "vidguard3d",
-      "name": "VidGuard3D",
-      "description": "A visual risk analysis tool for protecting 3D assets against video-based reconstruction attacks",
-      "publishedState": "Submitted",
-      "imgSrc": "/images/vidguard3d-teaser.webp"
     }
   ],
   "projectLearnMore": "Learn more",
